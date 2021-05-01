@@ -1,14 +1,23 @@
 version: '2'
 services:
-  php-apache:
+  php-apache-backend:
     image: 'wascardev/apache-php'
     ports:
       - '80'
     volumes:
-      - .:/var/www/html
+      - ./backend:/var/www/html
     networks:
       static-network:
         ipv4_address: 172.27.0.3
+  php-apache-frontend:
+          image: 'wascardev/apache-php'
+          ports:
+            - '80'
+          volumes:
+            - ./frontend:/var/www/html
+          networks:
+            static-network:
+              ipv4_address: 172.27.0.4
 networks:
   static-network:
     ipam:

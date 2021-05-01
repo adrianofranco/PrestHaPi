@@ -2,7 +2,7 @@
 
 class ListController
 {
-  
+ 
     public function __construct()
     {
         // VERIFICA CHAVE DE ACESSO
@@ -19,7 +19,7 @@ class ListController
         $list = new ListClass();
         return AppResponse::getResp(200, json_decode($list->getList()));
     }
- 
+
     public function post()
     {
         return AppResponse::getResp(200, array("ok"));
