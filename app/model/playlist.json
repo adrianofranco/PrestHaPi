@@ -1,0 +1,102 @@
+{
+    "playlist": [
+        {
+
+            "title": "Rock Forever",
+            "img": "",
+            "description": "Mussum Ipsum, cacilds vidis litro abertis. Paisis, filhis, espiritis santis. Manduma pindureta quium dia nois paga. Quem num gosta di mé, boa gentis num é. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.",
+            "musics": [
+                {
+                    "id": 1,
+                    "song": "",
+                    "singer": "",
+                    "language": "",
+                    "energy": "",
+                    "voice": "",
+                    "url": ""
+                },
+                {
+                    "id": 2,
+                    "song": "",
+                    "singer": "",
+                    "language": "",
+                    "energy": "",
+                    "voice": "",
+                    "url": ""
+                }, 
+                {
+                    "id": 3,
+                    "song": "",
+                    "singer": "",
+                    "language": "",
+                    "energy": "",
+                    "voice": "",
+                    "url": ""
+                }, 
+                {
+                    "id": 4,
+                    "song": "",
+                    "singer": "",
+                    "language": "",
+                    "energy": "",
+                    "voice": "",
+                    "url": ""
+                }, 
+                {
+                    "id": 5,
+                    "song": "",
+                    "singer": "",
+                    "language": "",
+                    "energy": "",
+                    "voice": "",
+                    "url": ""
+                }, 
+                {
+                    "id": 6,
+                    "song": "",
+                    "singer": "",
+                    "language": "",
+                    "energy": "",
+                    "voice": "",
+                    "url": ""
+                }, 
+                {
+                    "id": 7,
+                    "song": "",
+                    "singer": "",
+                    "language": "",
+                    "energy": "",
+                    "voice": "",
+                    "url": ""
+                }, 
+                {
+                    "id": 8,
+                    "song": "",
+                    "singer": "",
+                    "language": "",
+                    "energy": "",
+                    "voice": "",
+                    "url": ""
+                }, 
+                {
+                    "id": 9,
+                    "song": "",
+                    "singer": "",
+                    "language": "",
+                    "energy": "",
+                    "voice": "",
+                    "url": ""
+                }, 
+                {
+                    "id": 10,
+                    "song": "",
+                    "singer": "",
+                    "language": "",
+                    "energy": "",
+                    "voice": "",
+                    "url": ""
+                }
+            ]
+        }
+    ]
+}

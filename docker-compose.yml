@@ -1,0 +1,18 @@
+version: '2'
+services:
+  php-apache:
+    image: 'wascardev/apache-php'
+    ports:
+      - '80'
+    volumes:
+      - .:/var/www/html
+    networks:
+      static-network:
+        ipv4_address: 172.27.0.3
+networks:
+  static-network:
+    ipam:
+      config:
+        - subnet: 172.27.0.1/16
+          ip_range: 172.27.0.255/24
+          gateway: 172.27.0.255
