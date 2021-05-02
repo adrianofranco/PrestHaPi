@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,200;0,700;1,500&display=swap');
+
+:root {
+    --grey-light:#ececec;
+    --grey:#676767;
+    --prink:#ff027b;
+}
+
+body{
+    font-family: 'Piazzolla', serif;
+    font-weight: 500;
+    background-color: var(--grey-light);
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Piazzolla', serif;
+    font-weight: 700;
+}
+
+.navbar .form-control{
+    outline: 0;
+    font-family: 'Piazzolla', FontAwesome;
+}
+.navbar .form-control:focus {
+    color: black;
+    font-weight: 700;
+    background-color: #fff;
+    border-color: var(--prink);
+    outline: 0;
+    box-shadow: 1px 1px 1px var(--prink);
+}
+.navbar-collapse{
+    flex-direction: row-reverse;
+}
+.nav-background{
+    background: var(--prink);
+}
+.navbar-toggler-icon{
+    color: white;
+}

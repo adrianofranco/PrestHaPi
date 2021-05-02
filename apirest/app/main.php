@@ -16,7 +16,7 @@ class Main
     public function __construct($req)
     {
         $this->requestData = $req;
-        $this->path = $_SERVER['DOCUMENT_ROOT'] . "/app/controller/";
+        $this->path = $_SERVER['DOCUMENT_ROOT'] . "/apirest/app/controller/";
         $this->parseUrl();
     }
 
@@ -49,7 +49,7 @@ class Main
             $resp = AppResponse::getResp(400);
         endif;
 
-        return json_encode($resp, JSON_PRETTY_PRINT);
+        print_r(json_encode($resp, JSON_PRETTY_PRINT));
     }
 
 }

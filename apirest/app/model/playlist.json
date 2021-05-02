@@ -1,18 +1,17 @@
 {
-    "playlist": [
+    "playlist": 
         {
-
             "title": "Rock Forever",
             "img": "",
             "description": "Mussum Ipsum, cacilds vidis litro abertis. Paisis, filhis, espiritis santis. Manduma pindureta quium dia nois paga. Quem num gosta di mé, boa gentis num é. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.",
             "musics": [
                 {
                     "id": 1,
-                    "song": "",
-                    "singer": "",
-                    "language": "",
-                    "energy": "",
-                    "voice": "",
+                    "song": "B.Y.O.B",
+                    "singer": "System Of A Down",
+                    "language": "English",
+                    "energy": "Rápida",
+                    "voice": "Masculina",
                     "url": ""
                 },
                 {
@@ -98,5 +97,4 @@
                 }
             ]
         }
-    ]
 }
