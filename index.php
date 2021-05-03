@@ -49,17 +49,17 @@
                 <h1>{{playlist.title}}</h1>
                 <p>{{playlist.description}}</p>
             </div>
-            <!-- 2+3+3+1+1+1+1 -->
+
             <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 music-list">
-                <table class="table">
+                <table class="table ">
                     <thead class="thead-prink">
                         <tr>
                             <th scope="col">_</th>
                             <th scope="col">Título</th>
                             <th scope="col">Artista</th>
-                            <th scope="col">Energia</th>
-                            <th scope="col">Idioma</th>
-                            <th scope="col">Voz</th>
+                            <th class="d-none d-sm-table-cell" scope="col">Energia</th>
+                            <th class="d-none d-sm-table-cell" scope="col">Idioma</th>
+                            <th class="d-none d-sm-table-cell" scope="col">Voz</th>
                             <th scope="col"></th>
                         </tr>
                     </thead>
@@ -74,9 +74,9 @@
                             </td>
                             <td>{{x.song}}</td>
                             <td>{{x.singer}}</td>
-                            <td>{{x.energy}}</td>
-                            <td>{{x.language}}</td>
-                            <td>{{x.voice}}</td>
+                            <td class="d-none d-sm-table-cell">{{x.energy}}</td>
+                            <td class="d-none d-sm-table-cell">{{x.language}}</td>
+                            <td class="d-none d-sm-table-cell">{{x.voice}}</td>
                             <td>
                                 <i class="fa fa-thumbs-up fa-lg fa-fw tup-{{x.id}}" aria-hidden="true" data-rating="{{x}}" thumbslike></i>
                                 <i class="fa fa-thumbs-down fa-lg tdown-{{x.id}}" aria-hidden="true" data-rating="{{x}}" thumbsnot></i>

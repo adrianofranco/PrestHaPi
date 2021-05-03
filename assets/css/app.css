@@ -74,8 +74,19 @@ cursor: default;
 i.jplayer{
     color: var(--prink);
     cursor: pointer;
+    display: table-cell;
 }
 
 span.number{
     font-size: 15px;
+}
+
+.music-list .fa-thumbs-up,.music-list .fa-thumbs-down{
+    display: table-cell;
+}
+
+@media (min-width: 576px){
+.d-sm-table-cell {
+    display: table-cell!important; 
+}
 }
