@@ -38,17 +38,21 @@
             </div>
         </div>
     </nav>
-
+    <hr class="col-xs-12" />
     <div class="container">
         <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-            <h1>{{playlist.title}}</h1>
-            <p>{{playlist.description}}</p>
-        </div>    
-        
-        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <figure class="figure">
+                    <img src="/assets/img/ab67706f00000003b16b4319c1c42ff5aef89315.jpg" class="figure-img img-fluid rounded" alt="">
+                    <figcaption class="figure-caption text-xs-right"></figcaption>
+                </figure>
+                <h1>{{playlist.title}}</h1>
+                <p>{{playlist.description}}</p>
+            </div>
+            <!-- 2+3+3+1+1+1+1 -->
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 music-list">
                 <table class="table">
-                    <thead class="thead-dark ">
+                    <thead class="thead-prink">
                         <tr>
                             <th scope="col">_</th>
                             <th scope="col">Título</th>
@@ -61,12 +65,22 @@
                     </thead>
                     <tbody>
                         <tr ng-repeat="x in playlist.musics | filter:searchText">
-                            <td>PLAY</td>
+
+                            <td>
+
+                            <i class="jplayer fa fa-play-circle fa-2x fa-fw" aria-hidden="true" data-audio="{{x.url}}" data-autoplay="false" data-pauseothers="true" jplayer></i>
+                            <i class="jplayer fa fa-undo fa-2x" aria-hidden="true" data-id="{{x.id - 1}}" jplayerrewind><span class="number">5</span></i>
+                        
+                            </td>
                             <td>{{x.song}}</td>
                             <td>{{x.singer}}</td>
-                            <td>{{x.language}}</td>
                             <td>{{x.energy}}</td>
+                            <td>{{x.language}}</td>
                             <td>{{x.voice}}</td>
+                            <td>
+                                <i class="fa fa-thumbs-up fa-lg fa-fw tup-{{x.id}}" aria-hidden="true" data-rating="{{x}}" thumbslike></i>
+                                <i class="fa fa-thumbs-down fa-lg tdown-{{x.id}}" aria-hidden="true" data-rating="{{x}}" thumbsnot></i>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -77,6 +91,7 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+    <script src="/assets/js/jplayer/jquery.jplayer.min.js"></script>
     <script src="modules/app.js"></script>
 
 </body>

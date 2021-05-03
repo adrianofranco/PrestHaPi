@@ -5,12 +5,9 @@ $map = [
     'AppResponse' => 'appResponse.php',
     'Main' => 'main.php',
     
-    
     'AuthJWT' => 'model/authJWT.php',
     'ListClass' => 'model/listClass.php',
-
-
-
+    'RatingClass' => 'model/ratingClass.php',
     
  ];
 

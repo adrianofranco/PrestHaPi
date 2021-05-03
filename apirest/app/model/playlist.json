@@ -2,7 +2,7 @@
     "playlist": 
         {
             "title": "Rock Forever",
-            "img": "",
+            "img": "ab67706f00000003b16b4319c1c42ff5aef89315.jpg",
             "description": "Mussum Ipsum, cacilds vidis litro abertis. Paisis, filhis, espiritis santis. Manduma pindureta quium dia nois paga. Quem num gosta di mé, boa gentis num é. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.",
             "musics": [
                 {
@@ -12,88 +12,88 @@
                     "language": "English",
                     "energy": "Rápida",
                     "voice": "Masculina",
-                    "url": ""
+                    "url": "System_Of_A_Down_-_BYOB.mp3"
                 },
                 {
                     "id": 2,
-                    "song": "",
-                    "singer": "",
-                    "language": "",
-                    "energy": "",
-                    "voice": "",
-                    "url": ""
+                    "song": "Listen To Your Heart",
+                    "singer": "Roxette",
+                    "language": "English",
+                    "energy": "Lenta",
+                    "voice": "Femenina",
+                    "url": "Roxette_-_Listen_To_Your_Heart.mp3"
                 }, 
                 {
                     "id": 3,
-                    "song": "",
-                    "singer": "",
-                    "language": "",
-                    "energy": "",
-                    "voice": "",
-                    "url": ""
+                    "song": "Epitáfio",
+                    "singer": "Titãs",
+                    "language": "Português",
+                    "energy": "Lenta",
+                    "voice": "Masculina",
+                    "url": "Titas_-_Epitafio.mp3"
                 }, 
                 {
                     "id": 4,
-                    "song": "",
-                    "singer": "",
-                    "language": "",
-                    "energy": "",
-                    "voice": "",
-                    "url": ""
+                    "song": "All I Wanna Do",
+                    "singer": "Sheryl Crow",
+                    "language": "English",
+                    "energy": "Lenta",
+                    "voice": "Feminina",
+                    "url": "Sheryl_Crow _-_All_I_Wanna_Do.mp3"
                 }, 
                 {
                     "id": 5,
-                    "song": "",
-                    "singer": "",
-                    "language": "",
-                    "energy": "",
-                    "voice": "",
-                    "url": ""
+                    "song": "Basket Case",
+                    "singer": "Green Dat",
+                    "language": "English",
+                    "energy": "Rápida",
+                    "voice": "Masculina",
+                    "url": "Green_Day_-_ Basket_Case.mp3"
                 }, 
                 {
                     "id": 6,
-                    "song": "",
-                    "singer": "",
-                    "language": "",
-                    "energy": "",
-                    "voice": "",
-                    "url": ""
-                }, 
+                    "song": "B.Y.O.B",
+                    "singer": "System Of A Down",
+                    "language": "English",
+                    "energy": "Rápida",
+                    "voice": "Masculina",
+                    "url": "System_Of_A_Down_-_BYOB.mp3"
+                },
                 {
                     "id": 7,
-                    "song": "",
-                    "singer": "",
-                    "language": "",
-                    "energy": "",
-                    "voice": "",
-                    "url": ""
+                    "song": "Listen To Your Heart",
+                    "singer": "Roxette",
+                    "language": "English",
+                    "energy": "Lenta",
+                    "voice": "Femenina",
+                    "url": "Roxette_-_Listen_To_Your_Heart.mp3"
                 }, 
                 {
                     "id": 8,
-                    "song": "",
-                    "singer": "",
-                    "language": "",
-                    "energy": "",
-                    "voice": "",
-                    "url": ""
+                    "song": "Epitáfio",
+                    "singer": "Titãs",
+                    "language": "Português",
+                    "energy": "Lenta",
+                    "voice": "Masculina",
+                    "url": "Titas_-_Epitafio.mp3"
                 }, 
                 {
                     "id": 9,
-                    "song": "",
-                    "singer": "",
-                    "language": "",
-                    "energy": "",
-                    "voice": "",
-                    "url": ""
+                    "song": "All I Wanna Do",
+                    "singer": "Sheryl Crow",
+                    "language": "English",
+                    "energy": "Lenta",
+                    "voice": "Feminina",
+                    "url": "Sheryl_Crow _-_All_I_Wanna_Do.mp3"
                 }, 
                 {
                     "id": 10,
-                    "song": "",
-                    "singer": "",
-                    "language": "",
-                    "energy": "",
-                    "voice": "",
-                    "url": ""
+                    "song": "Basket Case",
+                    "singer": "Green Dat",
+                    "language": "English",
+                    "energy": "Rápida",
+                    "voice": "Masculina",
+                    "url": "Green_Day_-_ Basket_Case.mp3"
                 }
             ]
         }
